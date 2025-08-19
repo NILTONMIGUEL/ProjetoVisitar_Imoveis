@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    background-image: url("https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1500&q=80");
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.login {
+    background: rgba(255, 255, 255, 0.95);
+    padding:40px;
+    border-radius:15px;
+    width:100%;
+    max-width: 380px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    text-align: center
+}
+.login h2{
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+.login form input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline: none;
+    font-size: 16px;
+}
+.login input:focus{
+    border-color:#2980b9;
+}
+
+.login button{
+    width:100%;
+    padding:12px;
+    background-color:#2980b9;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom:20px;
+}
+.login .voltar{
+    width:100%;
+    padding:12px;
+    background-color:#7f8c8d;;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom:20px;
+    text-decoration: none;
+    color:white;
+    display:block;
+}
+.login button:hover{
+    background-color:#1f5f87;
+}
+.login .voltar:hover{
+    background: #5d6d6d;
+}
